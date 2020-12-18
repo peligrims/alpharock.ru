@@ -1,0 +1,583 @@
+@font-face { 
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+html, body{
+	height: 100%;
+}
+body{
+	background: #fff;
+	font-family:MyriadProRegular,sans-serif; 
+	font-size: 16px;
+	color: #828282;
+	font-weight: 400;
+	min-width: 320px;
+}
+h1 h2 {
+	font-family:MyriadProRegular,sans-serif;
+}
+a {
+	font-family:MyriadProRegular,sans-serif; 
+	font-weight: 400;
+	font-style: 17px;
+	color: #2cc7c1;
+}
+a:hover{
+	color: #2cc7c1;	
+}
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+section{
+	position: relative;
+}
+
+
+
+/*===================#ПРОБА=====================*/
+
+.nav-link {
+    display: block;
+    padding: 0.18rem 1rem;
+}
+
+
+
+
+
+
+
+
+/*===================#конец пробы=====================*/
+
+
+/*===================#navi=====================*/
+#navi{
+	height: 60px;
+		padding: 10px;
+}
+
+#navi img {
+	position: absolute;
+	
+	top:6px;
+}
+#navi a {
+	font-family: 'MyriadProRegular', sans-serif;
+}
+
+.navbar{
+	    margin-bottom: 0px;
+}
+.bg-light {
+    background-color: #ffffff!important;
+}
+#nav li {
+  display: inline-block;
+}
+li a {
+	text-transform: uppercase;
+	color: #000000;
+}
+.nav>li>a:hover{
+
+	color: #82D238;
+	background: #ffffff;
+}
+.dropdown-item:hover{
+
+	color: #ffffff;
+	background:#82D238;
+}
+.nav-link {
+    width: 100px;
+}
+li a .ru:hover {
+	color:red;
+}
+li a .en:hover {
+	color:red;
+}
+
+
+
+/*===================#header=====================*/
+#header{
+	height: 1000px;
+	background-size: cover;
+	/*height: 100vh;*/
+	
+	min-height: 500px;
+
+}
+#header .btn{
+	position: absolute;
+	top:-50px;
+	left: 560px;
+	font-family: Montserrat, sans-serif;
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border: none;
+	color: #fff;
+	transition: background .5s;
+}
+.btn-primary{
+	background: #6E982A;
+}
+.btn-primary:hover{
+	background: #6787c2;
+}
+.btn-default{
+	background: #6a7079;
+}
+.btn-default:hover{
+	background: #474c52;
+	color: #fff;
+}
+small{
+	vertical-align:80%;
+}
+#header img{
+	height:1000px;
+	width: 1920px;
+}
+#header h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #0B6F30;
+	position: absolute;
+	top:-100px;
+	left: 560px;
+}
+#header h1{
+	font-size: 90px;
+	font-weight: bold;
+	color: #0B6F30;
+	position: absolute;
+	top:-800px;
+	left: 490px;
+}
+
+#header p{
+	font-size: 25px;
+	color: #0B6F30;
+	position: absolute;
+	top:-680px;
+	left: 630px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 20px;
+	
+	
+}
+
+/*===================#antiheader=====================*/
+#antiheader .btn{
+	position: absolute;
+	top:-50px;
+	left: 560px;
+	font-family: Montserrat, sans-serif;
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border: none;
+	color: #fff;
+	transition: background .5s;
+}
+#antiheader .btn-primary{
+	background: #6E982A;
+}
+#antiheader .btn-primary:hover{
+	background: #6787c2;
+}
+#antiheader .btn-default{
+	background: #6a7079;
+}
+#antiheader .btn-default:hover{
+	background: #474c52;
+	color: #fff;
+}
+#antiheader small{
+	vertical-align:80%;
+}
+#antiheader img{
+	height:1000px;
+	width: 1920px;
+}
+#antiheader .carousel-item h1{
+	font-size: 90px;
+	font-weight: bold;
+	color: #0B6F30;
+	position: absolute;
+	top:-800px;
+	left: 490px;
+}
+
+#antiheader .carousel-item p{
+	font-size: 25px;
+	color: #0B6F30;
+	position: absolute;
+	top:-680px;
+	left: 630px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 20px;
+	
+	
+}
+#antiheader h2{
+	font-size: 90px;
+	font-weight: bold;
+	color: #0B6F30;
+	position: absolute;
+	top:-180px;
+	left: 400px;
+}
+#antiheader .carousel-item h1{
+	font-size: 60px;
+	font-weight: bold;
+	color: #0B6F30;
+	position: absolute;
+	top:-800px;
+	left: 50px;
+}
+
+#antiheader .carousel-item p{
+	font-size: 25px;
+	color: #0B6F30;
+	position: absolute;
+	top:-725px;
+	left: 200px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 20px;
+	
+	
+}
+#benefit{
+	height: 1000px;
+	background: #EAEAEA;
+	padding-top: 250px;
+}
+#benefit h1{
+	font-size: 60px;
+	color:#0B6F30;
+}	
+#benefit h5{
+	font-size: 90px;
+	text-align: left;
+	color:#0B6F30;
+}
+#benefit .card{
+	border: 0px;
+}
+#benefit .card-body{
+	background: #EAEAEA;
+}
+#benefit .card-header{
+	letter-spacing:25px;
+	background: #EAEAEA;
+	border: 0px;
+}
+
+
+
+/*===================#action=====================*/
+#action{
+	height: 1000px;
+	background: #B0C0D7;
+	padding-top: 250px;
+
+}
+
+#action p {
+
+	font-size: 24px;
+	font-style: italic;
+	color: #000000;
+}
+#action h3 {
+	font-size: 40px;
+	color: #000000;
+}
+
+
+#action .primer {
+ padding-top: 50px;	
+}
+
+/*===================#kits=====================*/
+
+#kits{
+	height: 1000px;
+	background: #EAEAEA;
+	padding-top: 250px;
+}
+
+table{
+	border: 2px double #000;
+	padding-top:50px;  
+}
+td, th{
+	
+	 border: 1px solid #000; /* Рамка вокруг ячеек */
+}
+
+/*===================#carousel=====================*/
+
+
+.fa-angle-left:before {
+    content: "\f104";
+    font-size: 60px;
+    color: #0B6F30;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+    font-size: 60px;
+    color: #0B6F30;
+}
+
+.carousel-indicators{
+	
+	bottom: 10px;
+	margin: 0;
+	margin-left: 20px;
+	width: auto;
+}
+.carousel-indicators li{
+	border: 3px solid #82D238;
+	background: #fff;
+	height: 12px;
+	width: 12px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.carousel-indicators li.active{
+	background: #82D238;
+	height: 14px;
+	width: 14px;
+}
+
+
+
+/*=======================#alpharockone========================*/
+#alpharockone {
+height: 750px;
+background: #EAEAEA;
+}
+#alpharockone .card{
+	padding: 100px;
+	color: #6E982A;
+	background: #EAEAEA;
+	border: 0px;
+}
+#alpharockone h5 {
+	font-size: 90px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0B6F30;
+}
+#alpharockone p {
+	font-size: 42px;
+	font-style: italic;
+	border: 0px;
+	color: #0B6F30;
+	background: #EAEAEA;
+}
+
+
+#alpharockone a {
+	font-size: 24px;
+	border: 0px;
+	color: #0B6F30;
+	background: #EAEAEA;
+}
+
+
+/*=======================#photoone========================*/
+#photoone {
+height: 330px;
+background: #FFFFFF;
+}
+#photoone img{
+height: 330px;
+}
+/*=======================#descriptionone========================*/
+#descriptionone{
+height: 840px;
+background: #EAEAEA;
+padding: 300px;	
+}
+/*=======================#message========================*/
+#message{
+height: 490px;
+background: #FFFFFF;
+padding: 100px;	
+}
+ /*=======================#graphenstone========================*/
+#graphenstone{
+height: 1080px;
+background: #F8F9FA;	
+} 
+
+#graphenstone {
+height: 750px;
+background: #EAEAEA;
+}
+#graphenstone .card{
+	padding: 100px;
+	color: #6E982A;
+	background: #EAEAEA;
+	border: 0px;
+}
+#graphenstone h5 {
+	font-size: 90px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0B6F30;
+}
+#graphenstone p {
+	font-size: 42px;
+	font-style: italic;
+	border: 0px;
+	color: #0B6F30;
+	background: #EAEAEA;
+}
+
+
+#graphenstone a {
+	font-size: 24px;
+	border: 1px;
+	color: #0B6F30;
+	background: #EAEAEA;
+}
+#graphenstone h1 {
+	font-size: 24px;
+	border: 0px;
+	color: #0B6F30;
+	background: #FFFFFF;
+}
+
+
+#graphenstone .btn-primary{
+	background: #EAEAEA;
+}
+#graphenstone .btn-primary:hover{
+	background: #6787c2;
+}
+#graphenstone .btn-default{
+	background: #6a7079;
+}
+#graphenstone .btn-default:hover{
+	background: #474c52;
+	color: #fff;
+}
+
+
+
+/*=======================#alpharocktwo========================*/
+
+#alpharocktwo {
+height: 750px;
+background: #EAEAEA;
+}
+#alpharocktwo .card{
+	padding: 100px;
+	color: #6E982A;
+	background: #EAEAEA;
+	border: 0px;
+}
+#alpharocktwo h5 {
+	font-size: 90px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0B6F30;
+}
+#alpharocktwo p {
+	font-size: 42px;
+	font-style: italic;
+	border: 0px;
+	color: #0B6F30;
+	background: #EAEAEA;
+}
+
+
+#alpharocktwo a {
+	font-size: 24px;
+	border: 0px;
+	color: #0B6F30;
+	background: #EAEAEA;
+}
+
+/*=======================#phototwo========================*/
+#phototwo
+{
+height: 620px;
+background: #EAEAEA;		
+}
+/*=======================#descriptiontwo========================*/
+#descriptiontwo{
+height: 770px;
+background: #FFFFFF;
+padding: 200px;		
+}
+
+/*=======================#feedback========================*/
+#feedback{
+height: 1080px;
+background: #EAEAEA;
+padding: 400px;	
+}
+/*=======================#map========================*/
+#map img {
+    
+    height: 600px;
+}
+
+/*=======================#copy========================*/
+#copy{
+	background: #0B6F30;
+	padding: 15px 0;
+}
+#copy p{
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+@media only screen and (max-width : 600px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
